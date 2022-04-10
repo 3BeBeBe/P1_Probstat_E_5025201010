@@ -241,10 +241,31 @@ breaks = 50
   X1 = 5\
   X2 = 6
   ```R
+  par(mfrow = c(2,1))
+  data = rnorm(n, mean, sd)
+  z_score = c()
+  for (d in data){
+    z = (d - mean)/sd
+    z_score = append(z_score, z)
+  
+    if (d < mean){
+      x1 = x1 + 1
+    }else{
+      x2 = x2 + 1
+    }
+  }
+  result = plot(z_score, type='l')
+  paste("Mean = ", mean)
+  paste("x1 = ", x1)
+  paste("x2 = ", x2)
   ```
   Hasil dari program diatas
-
-  ![alt text](https://github.com/3BeBeBe/P1_Probstat_E_5025201010/blob/main/Asset%20Probstat%20Praktikum%201/6a.png)
+  
+  ![alt text](https://github.com/3BeBeBe/P1_Probstat_E_5025201010/blob/main/Asset%20Probstat%20Praktikum%201/6a1.png)
+  
+  Histogram
+  
+  ![alt text](https://github.com/3BeBeBe/P1_Probstat_E_5025201010/blob/main/Asset%20Probstat%20Praktikum%201/6a1.png)
   
 - Generate Histogram dari Distribusi Normal dengan breaks 50 dan format penamaan: `NRP_Nama_Probstat_{Nama Kelas}_DNhistogram`\
 Contoh :\
