@@ -127,12 +127,7 @@ n = 365
   ![alt text](https://github.com/3BeBeBe/P1_Probstat_E_5025201010/blob/main/Asset%20Probstat%20Praktikum%201/3b.png)
   
 - dan bandingkan hasil poin a dan b , Apa kesimpulan yang bisa didapatkan
-  ```R
-  
-  ```
-  Hasil dari program diatas
-
-  ![alt text](https://github.com/3BeBeBe/P1_Probstat_E_5025201010/blob/main/Asset%20Probstat%20Praktikum%201/3c.png)
+  > Dari data dan perhitungan diatas dapat dikatakan bahwa distribusi poisson pada kelahiran bayi dari hari pertama hingga terakhir adalah sama
   
 - Nilai Rataan (μ) dan Varian (σ²) dari Distribusi Poisson.
   ```R
