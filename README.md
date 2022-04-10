@@ -2,8 +2,13 @@
 Praktikum Modul 1 Probabilitas dan Statistika
 
 ## Soal 1
-Seorang penyurvei secara acak memilih orang-orang di jalan sampai dia bertemu dengan seseorang yang menghadiri acara vaksinasi sebelumnya.
-
+Seorang penyurvei secara acak memilih orang-orang di jalan sampai dia bertemu dengan seseorang yang menghadiri acara vaksinasi sebelumnya.\
+Pendeklarasian variable yang akan digunakan
+```R
+x = 3
+p = 0.2
+n = 10000
+```
 - Berapa peluang penyurvei bertemu x = 3 orang yang tidak menghadiri acara vaksinasi sebelum keberhasilan pertama ketika p = 0,20 dari populasi menghadiri acara vaksinasi ? (distribusi Geometrik) 
   ```R 
   #1a
@@ -56,8 +61,14 @@ geometrik acak tersebut X = 3 ( distribusi geometrik acak () == 3 )
   ![alt text](https://github.com/3BeBeBe/P1_Probstat_E_5025201010/blob/main/Asset%20Probstat%20Praktikum%201/1e.png)
 
 ## Soal 2
-Terdapat 20 pasien menderita Covid19 dengan peluang sembuh sebesar 0.2. Tentukan :
-
+Terdapat 20 pasien menderita Covid19 dengan peluang sembuh sebesar 0.2. Tentukan :\
+Pendeklarasian variable yang akan digunakan
+```R
+n = 20
+P = 0.2
+sF = 1 - p
+sT = 4
+```
 - Peluang terdapat 4 pasien yang sembuh.
   ```R
   dbinom(sT, n, p)
@@ -87,7 +98,13 @@ Terdapat 20 pasien menderita Covid19 dengan peluang sembuh sebesar 0.2. Tentukan
   ![alt text](https://github.com/3BeBeBe/P1_Probstat_E_5025201010/blob/main/Asset%20Probstat%20Praktikum%201/2c.png)
 
 ## Soal 3
-Diketahui data dari sebuah tempat bersalin di rumah sakit tertentu menunjukkan rata-rata historis 4,5 bayi lahir di rumah sakit ini setiap hari. (gunakan Distribusi Poisson)
+Diketahui data dari sebuah tempat bersalin di rumah sakit tertentu menunjukkan rata-rata historis 4,5 bayi lahir di rumah sakit ini setiap hari. (gunakan Distribusi Poisson)\
+Pendeklarasian variable yang akan digunakan
+```R
+mean = 4.5
+x = 6
+n = 365
+```
 
 - Berapa peluang bahwa 6 bayi akan lahir di rumah sakit ini besok?
   ```R
@@ -124,7 +141,13 @@ Diketahui data dari sebuah tempat bersalin di rumah sakit tertentu menunjukkan r
   ![alt text](https://github.com/3BeBeBe/P1_Probstat_E_5025201010/blob/main/Asset%20Probstat%20Praktikum%201/3d.png)
 
 ## Soal 4
-Diketahui nilai x = 2 dan v = 10. Tentukan:
+Diketahui nilai x = 2 dan v = 10. Tentukan:\
+Pendeklarasian variable yang akan digunakan
+```R
+x = 2
+v = 10
+rD = 100
+```
 - Fungsi Probabilitas dari Distribusi Chi-Square.
   ```R
   dchisq(x, v)
@@ -154,7 +177,11 @@ Diketahui nilai x = 2 dan v = 10. Tentukan:
   ![alt text](https://github.com/3BeBeBe/P1_Probstat_E_5025201010/blob/main/Asset%20Probstat%20Praktikum%201/4c.png)
   
 ## Soal 5
-Diketahui bilangan acak (random variable) berdistribusi exponential (λ = 3). Tentukan
+Diketahui bilangan acak (random variable) berdistribusi exponential (λ = 3). Tentukan\
+Pendeklarasian variable yang akan digunakan
+```R
+lmbd = 3
+```
 - Fungsi Probabilitas dari Distribusi Exponensial
   ```R
   dexp(lmbd)
@@ -187,7 +214,16 @@ Diketahui bilangan acak (random variable) berdistribusi exponential (λ = 3). Te
   ![alt text](https://github.com/3BeBeBe/P1_Probstat_E_5025201010/blob/main/Asset%20Probstat%20Praktikum%201/5c.png)
 
 ## Soal 6
-Diketahui generate random nilai sebanyak 100 data, mean = 50, sd = 8. Tentukan
+Diketahui generate random nilai sebanyak 100 data, mean = 50, sd = 8. Tentukan\
+Pendeklarasian variable yang akan digunakan
+```R
+x1 = 0
+x2 = 0
+n = 100
+mean = 50
+sd = 8
+breaks = 50
+```
 - Fungsi Probabilitas dari Distribusi Normal P(X1 ≤ x ≤ X2), hitung Z-Score Nya dan plot data generate randomnya dalam bentuk grafik. Petunjuk(gunakan fungsi plot()).\
   Keterangan :\
   X1 = Dibawah rata-rata\
