@@ -3,6 +3,7 @@ Praktikum Modul 1 Probabilitas dan Statistika
 
 ## Soal 1
 Seorang penyurvei secara acak memilih orang-orang di jalan sampai dia bertemu dengan seseorang yang menghadiri acara vaksinasi sebelumnya.
+
 - Berapa peluang penyurvei bertemu x = 3 orang yang tidak menghadiri acara vaksinasi sebelum keberhasilan pertama ketika p = 0,20 dari populasi menghadiri acara vaksinasi ? (distribusi Geometrik) 
   ```R 
   #1a
@@ -46,3 +47,28 @@ geometrik acak tersebut X = 3 ( distribusi geometrik acak () == 3 )
   Hasil dari program diatas
 
   ![alt text](https://github.com/3BeBeBe/P1_Probstat_E_5025201010/blob/main/Asset%20Probstat%20Praktikum%201/1e.png)
+
+## Soal 2
+Terdapat 20 pasien menderita Covid19 dengan peluang sembuh sebesar 0.2. Tentukan :
+
+- Peluang terdapat 4 pasien yang sembuh.
+  ```R
+  dbinom(sT, n, p)
+  ```
+  Hasil dari program diatas
+
+  ![alt text](https://github.com/3BeBeBe/P1_Probstat_E_5025201010/blob/main/Asset%20Probstat%20Praktikum%201/2a.png)
+  
+- Gambarkan grafik histogram berdasarkan kasus tersebut.
+
+- Nilai Rataan (μ) dan Varian (σ²) dari Distribusi Binomial.
+  ```R
+  mean = n * p
+  mean
+
+  varian = n * p * sF
+  varian
+  ```
+  Hasil dari program diatas
+
+  ![alt text](https://github.com/3BeBeBe/P1_Probstat_E_5025201010/blob/main/Asset%20Probstat%20Praktikum%201/2c.png)
