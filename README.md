@@ -72,3 +72,26 @@ Terdapat 20 pasien menderita Covid19 dengan peluang sembuh sebesar 0.2. Tentukan
   Hasil dari program diatas
 
   ![alt text](https://github.com/3BeBeBe/P1_Probstat_E_5025201010/blob/main/Asset%20Probstat%20Praktikum%201/2c.png)
+
+## Soal 3
+Diketahui data dari sebuah tempat bersalin di rumah sakit tertentu menunjukkan rata-rata historis 4,5 bayi lahir di rumah sakit ini setiap hari. (gunakan Distribusi Poisson)
+
+- Berapa peluang bahwa 6 bayi akan lahir di rumah sakit ini besok?
+  ```R
+  dpois(x, mean)
+  ```
+  Hasil dari program diatas
+
+  ![alt text](https://github.com/3BeBeBe/P1_Probstat_E_5025201010/blob/main/Asset%20Probstat%20Praktikum%201/3a.png)
+
+- simulasikan dan buatlah histogram kelahiran 6 bayi akan lahir di rumah sakit ini selama setahun (n = 365)
+- dan bandingkan hasil poin a dan b , Apa kesimpulan yang bisa didapatkan
+- Nilai Rataan (μ) dan Varian (σ²) dari Distribusi Poisson.
+  ```R
+  varian = mean
+  mean
+  varian
+  ```
+  Hasil dari program diatas
+ 
+  ![alt text](https://github.com/3BeBeBe/P1_Probstat_E_5025201010/blob/main/Asset%20Probstat%20Praktikum%201/3d.png)
