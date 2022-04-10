@@ -79,7 +79,9 @@ sT = 4
   
 - Gambarkan grafik histogram berdasarkan kasus tersebut.
   ```R
-  
+  peluang = dbinom(1:20, n, p)
+  data = data.frame(y = c(peluang), x = c(1:20))
+  barplot(data$y, names.arg = data$x, ylab = "Peluang Kemungkinan", xlab = "Jumlah Pasien")
   ```
   Hasil dari program diatas
 
@@ -115,8 +117,10 @@ n = 365
   ![alt text](https://github.com/3BeBeBe/P1_Probstat_E_5025201010/blob/main/Asset%20Probstat%20Praktikum%201/3a.png)
 
 - simulasikan dan buatlah histogram kelahiran 6 bayi akan lahir di rumah sakit ini selama setahun (n = 365)
-  ```R
-  
+  ```R  
+  peluang = dpois(p, mean)
+  data = data.frame(y = c(peluang), x = c(1:365))
+  barplot(data$y, names.arg=data$x, ylab="peluang", xlab="hari ke-", ylim=0:1)
   ```
   Hasil dari program diatas
 
