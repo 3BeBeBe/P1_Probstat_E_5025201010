@@ -216,6 +216,7 @@ Contoh :\
 - Nilai Varian (σ²) dari hasil generate random nilai Distribusi Normal.
   ```R
   varian = `^`(sd, 2)
+  varian
   ```
   Hasil dari program diatas
 
