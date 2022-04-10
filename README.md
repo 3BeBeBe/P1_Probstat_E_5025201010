@@ -265,7 +265,7 @@ breaks = 50
   
   Histogram
   
-  ![alt text](https://github.com/3BeBeBe/P1_Probstat_E_5025201010/blob/main/Asset%20Probstat%20Praktikum%201/6a1.png)
+  ![alt text](https://github.com/3BeBeBe/P1_Probstat_E_5025201010/blob/main/Asset%20Probstat%20Praktikum%201/6a2.png)
   
 - Generate Histogram dari Distribusi Normal dengan breaks 50 dan format penamaan: `NRP_Nama_Probstat_{Nama Kelas}_DNhistogram`\
 Contoh :\
