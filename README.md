@@ -35,4 +35,4 @@ geometrik acak tersebut X = 3 ( distribusi geometrik acak () == 3 )
   varian = n * p * (1 - p)
   varian
   ```
-  
+  ![alt text](https://github.com/3BeBeBe/P1_Probstat_E_5025201010/blob/main/Asset%20Probstat%20Praktikum%201/1e.png)
