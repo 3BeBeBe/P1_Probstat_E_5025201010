@@ -42,7 +42,21 @@ geometrik acak tersebut X = 3 ( distribusi geometrik acak () == 3 )
 
 - Histogram Distribusi Geometrik , Peluang X = 3 gagal Sebelum Sukses Pertama
   ```R
-  mean(rgeom(n, p) == x)
+  library(dplyr)
+  library(ggplot2)
+
+  data.frame(x = 0:10, prob = dgeom(x = 0:10, prob = 0.2)) %>%
+    mutate(failures = ifelse(x == 3,3, "other")) %>%
+    ggplot(aes(x = factor(x), y = prob, fill = failures)) +
+    geom_col() + geom_text(
+      aes(label = round(prob,2), y = prob + 0.01),
+      position = position_dodge(0.9),
+      size = 3,
+      vjust = 0
+    ) + labs(title = "Peluang X = 3 gagal Sebelum Sukses Pertama",
+             subtitle = "geometric",
+             x = "Peluang gagal sebelum sukses pertama",
+             y = "probabilitas")
   ```
   Hasil dari program diatas
 
