@@ -126,3 +126,35 @@ Diketahui nilai x = 2 dan v = 10. Tentukan:
 
   ![alt text](https://github.com/3BeBeBe/P1_Probstat_E_5025201010/blob/main/Asset%20Probstat%20Praktikum%201/4c.png)
   
+## Soal 5
+Diketahui bilangan acak (random variable) berdistribusi exponential (λ = 3). Tentukan
+- Fungsi Probabilitas dari Distribusi Exponensial
+  ```R
+  dexp(lmbd)
+  ```
+  Hasil dari program diatas
+
+  ![alt text](https://github.com/3BeBeBe/P1_Probstat_E_5025201010/blob/main/Asset%20Probstat%20Praktikum%201/5a.png)
+
+- Histogram dari Distribusi Exponensial untuk 10, 100, 1000 dan 10000 bilangan random
+  ```R
+  
+  ```
+  Hasil dari program diatas
+
+  ![alt text](https://github.com/3BeBeBe/P1_Probstat_E_5025201010/blob/main/Asset%20Probstat%20Praktikum%201/5b.png)
+
+- Nilai Rataan (μ) dan Varian ( ) dari Distribusi Exponensial untuk n = 100 dan λ = 3σ²
+  Petunjuk:
+  * Gunakan set.seed(1)
+  * Gunakan fungsi bawaan R
+  ```R
+  mean = lmbd
+  mean
+
+  varian = `^`(lmbd, 2)
+  varian
+  ```
+  Hasil dari program diatas
+
+  ![alt text](https://github.com/3BeBeBe/P1_Probstat_E_5025201010/blob/main/Asset%20Probstat%20Praktikum%201/5c.png)
