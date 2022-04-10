@@ -191,7 +191,15 @@ lmbd = 3
 
 - Histogram dari Distribusi Exponensial untuk 10, 100, 1000 dan 10000 bilangan random
   ```R
-  
+  par(mfrow = c(2,2))
+  set.seed(1)
+  hist(rexp(10))
+  set.seed(1)
+  hist(rexp(100))
+  set.seed(1)
+  hist(rexp(1000))
+  set.seed(1)
+  hist(rexp(10000))
   ```
   Hasil dari program diatas
 
