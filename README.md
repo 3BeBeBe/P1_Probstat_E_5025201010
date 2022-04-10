@@ -95,3 +95,34 @@ Diketahui data dari sebuah tempat bersalin di rumah sakit tertentu menunjukkan r
   Hasil dari program diatas
  
   ![alt text](https://github.com/3BeBeBe/P1_Probstat_E_5025201010/blob/main/Asset%20Probstat%20Praktikum%201/3d.png)
+
+## Soal 4
+Diketahui nilai x = 2 dan v = 10. Tentukan:
+- Fungsi Probabilitas dari Distribusi Chi-Square.
+  ```R
+  dchisq(x, v)
+  ```
+  Hasil dari program diatas
+
+  ![alt text](https://github.com/3BeBeBe/P1_Probstat_E_5025201010/blob/main/Asset%20Probstat%20Praktikum%201/4a.png)
+
+- Histogram dari Distribusi Chi-Square dengan 100 data random.
+  ```R
+  hist(rchisq(rD, v))
+  ```
+  Hasil dari program diatas
+  
+  ![alt text](https://github.com/3BeBeBe/P1_Probstat_E_5025201010/blob/main/Asset%20Probstat%20Praktikum%201/4b.png)
+
+- Nilai Rataan (μ) dan Varian (σ²) dari Distribusi Chi-Square.
+  ```R
+  mean = v
+  mean
+
+  varian = x * v
+  varian
+  ```
+  Hasil dari program diatas
+
+  ![alt text](https://github.com/3BeBeBe/P1_Probstat_E_5025201010/blob/main/Asset%20Probstat%20Praktikum%201/4c.png)
+  
