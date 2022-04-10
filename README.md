@@ -36,6 +36,13 @@ geometrik acak tersebut X = 3 ( distribusi geometrik acak () == 3 )
   ![alt text](https://github.com/3BeBeBe/P1_Probstat_E_5025201010/blob/main/Asset%20Probstat%20Praktikum%201/1c3.png)
 
 - Histogram Distribusi Geometrik , Peluang X = 3 gagal Sebelum Sukses Pertama
+  ```R
+  mean(rgeom(n, p) == x)
+  ```
+  Hasil dari program diatas
+
+  ![alt text](https://github.com/3BeBeBe/P1_Probstat_E_5025201010/blob/main/Asset%20Probstat%20Praktikum%201/1d.png)
+  
 - Nilai Rataan (μ) dan Varian (σ²) dari Distribusi Geometrik.
   ```R
   mean = n * p
@@ -60,6 +67,12 @@ Terdapat 20 pasien menderita Covid19 dengan peluang sembuh sebesar 0.2. Tentukan
   ![alt text](https://github.com/3BeBeBe/P1_Probstat_E_5025201010/blob/main/Asset%20Probstat%20Praktikum%201/2a.png)
   
 - Gambarkan grafik histogram berdasarkan kasus tersebut.
+  ```R
+  
+  ```
+  Hasil dari program diatas
+
+  ![alt text](https://github.com/3BeBeBe/P1_Probstat_E_5025201010/blob/main/Asset%20Probstat%20Praktikum%201/2b.png)
 
 - Nilai Rataan (μ) dan Varian (σ²) dari Distribusi Binomial.
   ```R
@@ -85,7 +98,21 @@ Diketahui data dari sebuah tempat bersalin di rumah sakit tertentu menunjukkan r
   ![alt text](https://github.com/3BeBeBe/P1_Probstat_E_5025201010/blob/main/Asset%20Probstat%20Praktikum%201/3a.png)
 
 - simulasikan dan buatlah histogram kelahiran 6 bayi akan lahir di rumah sakit ini selama setahun (n = 365)
+  ```R
+  
+  ```
+  Hasil dari program diatas
+
+  ![alt text](https://github.com/3BeBeBe/P1_Probstat_E_5025201010/blob/main/Asset%20Probstat%20Praktikum%201/3b.png)
+  
 - dan bandingkan hasil poin a dan b , Apa kesimpulan yang bisa didapatkan
+  ```R
+  
+  ```
+  Hasil dari program diatas
+
+  ![alt text](https://github.com/3BeBeBe/P1_Probstat_E_5025201010/blob/main/Asset%20Probstat%20Praktikum%201/3c.png)
+  
 - Nilai Rataan (μ) dan Varian (σ²) dari Distribusi Poisson.
   ```R
   varian = mean
@@ -144,7 +171,7 @@ Diketahui bilangan acak (random variable) berdistribusi exponential (λ = 3). Te
 
   ![alt text](https://github.com/3BeBeBe/P1_Probstat_E_5025201010/blob/main/Asset%20Probstat%20Praktikum%201/5b.png)
 
-- Nilai Rataan (μ) dan Varian ( ) dari Distribusi Exponensial untuk n = 100 dan λ = 3σ²
+- Nilai Rataan (μ) dan Varian (σ²) dari Distribusi Exponensial untuk n = 100 dan λ = 3σ²
   Petunjuk:
   * Gunakan set.seed(1)
   * Gunakan fungsi bawaan R
@@ -158,3 +185,38 @@ Diketahui bilangan acak (random variable) berdistribusi exponential (λ = 3). Te
   Hasil dari program diatas
 
   ![alt text](https://github.com/3BeBeBe/P1_Probstat_E_5025201010/blob/main/Asset%20Probstat%20Praktikum%201/5c.png)
+
+## Soal 6
+Diketahui generate random nilai sebanyak 100 data, mean = 50, sd = 8. Tentukan
+- Fungsi Probabilitas dari Distribusi Normal P(X1 ≤ x ≤ X2), hitung Z-Score Nya dan plot data generate randomnya dalam bentuk grafik. Petunjuk(gunakan fungsi plot()).\
+  Keterangan :\
+  X1 = Dibawah rata-rata\
+  X2 = Diatas rata-rata\
+  Contoh data :\
+  1,2,4,2,6,3,10,11,5,3,6,8\
+  rata-rata = 5.083333\
+  X1 = 5\
+  X2 = 6
+  ```R
+  ```
+  Hasil dari program diatas
+
+  ![alt text](https://github.com/3BeBeBe/P1_Probstat_E_5025201010/blob/main/Asset%20Probstat%20Praktikum%201/6a.png)
+  
+- Generate Histogram dari Distribusi Normal dengan breaks 50 dan format penamaan: `NRP_Nama_Probstat_{Nama Kelas}_DNhistogram`\
+Contoh :\
+312312312_Rola_Probstat_A_DNhistogram
+  ```R
+  hist(rnorm(n, mean, sd), breaks, main="5025201010_I Putu Bagus Adhi Pradana_E_DNhistogram")
+  ```
+  Hasil dari program diatas
+
+  ![alt text](https://github.com/3BeBeBe/P1_Probstat_E_5025201010/blob/main/Asset%20Probstat%20Praktikum%201/6b.png)
+  
+- Nilai Varian (σ²) dari hasil generate random nilai Distribusi Normal.
+  ```R
+  varian = `^`(sd, 2)
+  ```
+  Hasil dari program diatas
+
+  ![alt text](https://github.com/3BeBeBe/P1_Probstat_E_5025201010/blob/main/Asset%20Probstat%20Praktikum%201/6c.png)
